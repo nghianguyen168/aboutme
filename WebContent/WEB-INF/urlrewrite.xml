@@ -1,0 +1,41 @@
+<urlrewrite>
+	<!-- <rule>
+	<from>^/lien-he$</from>
+	<to>/contact</to>
+	</rule>
+	
+	<rule>
+	/cat/nhac-tru-tinh-3.html
+	<from>^/cat/(.*)-([0-9]+).html$</from>
+	<to>/cat?cid=$2</to>
+	</rule>
+	
+	<rule>
+	/detail?did=56&cid=15
+	/detail?did=59&cid=4
+	<from>^/detail/(.*)-([0-9]+)-([0-9]+).html$</from>
+	<to>/detail?did=$2&amp;cid=$3</to>
+	</rule>
+
+	
+	<rule>
+		/detail?did=48&cid=15
+	<from>^/detail/(.*)-([0-9]+)-([0-9]+).html$</from>
+	<to>/detail?did=$2&amp;cid=$3</to>
+	</rule> -->
+	
+	<rule>
+	<!-- /public/news/cat?id=1 -->
+	<from>^/tin-tuc/(.*)-([0-9]+).html$</from>
+	<to>/public/news/cat?id=$2</to>
+	</rule>
+	
+		<rule>
+	<!-- /public/news/detail?id=10 -->
+	<from>^/(.*)-([0-9]+).html$</from>
+	<to>/public/news/detail?id=$2</to>
+	</rule>
+	
+	
+	
+</urlrewrite>
